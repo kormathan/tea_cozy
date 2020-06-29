@@ -1,0 +1,210 @@
+/*general styles*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica", sans-serif;
+  color: seashell;
+  background-color: black;
+  font-size: 22px;
+  text-align: center;
+  opacity: 0.9;
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+a {
+  color: seashell;
+}
+
+.textblock{
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+h2 {
+  margin: 0.875rem;
+}
+
+h4 {
+  margin: 0.35rem 0;
+}
+
+/* Header */
+
+header {
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  padding: 0 10px 0 10px;
+  box-sizing: inherit;
+  background-color: black;
+}
+
+header img {
+  height: 50px;
+  float: left;
+  padding-top: 9.5px;
+}
+
+nav {
+  width: 50%;
+  display: inline-flex;
+  align-items: right;
+  justify-content: flex-end;
+  float: right;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 360px;
+}
+
+nav li {
+  list-style-type: none;
+  text-align: left;
+}
+
+/* Main Section*/
+
+.main {
+  padding-top: 69px;
+}
+
+#mission {
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  margin: 0 20px;
+}
+
+.mission {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-position: center;
+  width: 100%;
+  max-height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+/* Tea Section*/
+
+.tea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px;
+}
+
+.tea .imagecontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+}
+
+.tea .product {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 300px;
+  height: auto;
+  margin: 10px 15px;
+}
+
+.tea img {
+  width: 100%;
+  max-height: 200px;
+}
+
+.tea .product h4 {
+  padding-top: 10px;
+}
+
+/* Locations Section*/
+
+#location {
+  width: 100%;
+  padding: 40px 20px 10px 20px;
+}
+
+.location {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  background-position: center;
+  width: auto;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.site-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.location .site {
+  padding: 15px;
+  max-width: 300px;
+  flex: 0 1 300px;
+  background-color: black;
+  opacity: 1;
+  margin: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.location p
+.location h3
+{
+  flex-shrink: 1;
+}
+
+/*Contact Section*/
+
+.contact {
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200px;
+  flex-wrap: nowrap;
+}
+
+/* Footer*/
+
+footer {
+  padding: 20px;
+  text-align: left;
+}
